@@ -15,7 +15,7 @@ services:
     depends_on:
       - db
     environment:
-      - DATABASE_URL=postgres://bloo:kusk!#izU96%@p4CZ!@db:5432/bloo
+      - DATABASE_URL=postgres://bloo:changeme@db:5432/bloo
     volumes:
       - ./config.json:/app/config.json:ro
     restart: unless-stopped
