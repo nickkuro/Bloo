@@ -6,7 +6,7 @@ services:
     environment:
       POSTGRES_DB: bloo
       POSTGRES_USER: bloo
-      POSTGRES_PASSWORD: kusk!#izU96%@p4CZ!
+      POSTGRES_PASSWORD: changeme
     volumes:
       - pgdata:/var/lib/postgresql/data
 
